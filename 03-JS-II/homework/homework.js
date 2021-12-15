@@ -56,7 +56,6 @@ function saludo(idioma) {
     return 'Hola!';
   }
 }
-}
 
 function colors(color) {
   //La función recibe un color. Devolver el string correspondiente:
