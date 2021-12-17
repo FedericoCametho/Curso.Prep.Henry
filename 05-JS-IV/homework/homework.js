@@ -99,9 +99,8 @@ function tienePropiedad(objeto, propiedad) {
  // } else {
  //     return false;
  // }
+ 
  // return objeto.hasOwnProperty(propiedad);
-
-
 
 }
 
@@ -115,6 +114,7 @@ function verificarPassword(usuario, password) {
   } else { 
     return false;
   }
+  // return usuario['password'] === password
 }
 
 function actualizarPassword(usuario, nuevaPassword) {
