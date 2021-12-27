@@ -5,12 +5,15 @@
     width:850px;
     background-position: center;
 }
-h1 {
+h1{
     color: rgb(13, 5, 116);
 }
-img {
+img{
     max-width: 400px;
     max-height: 400px;
+    display: block;
+    padding-left: 100px;
+    padding-bottom: 30px;
 }
 
 .divClass{
